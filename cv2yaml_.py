@@ -2,7 +2,6 @@ import yaml
 import os
 import glob
 
-# 使用 frozenset 以确保集合是不可变的
 class_B = frozenset({'BasketballDrive_1920x1080_50', 'BQTerrace_1920x1080_60', 
                     'Cactus_1920x1080_50', 'Kimono1_1920x1080_24',
                     'ParkScene_1920x1080_24'})
